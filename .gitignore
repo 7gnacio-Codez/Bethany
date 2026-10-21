@@ -1,0 +1,12 @@
+# Entorno virtual de Python
+venv/
+__pycache__/
+
+# Variables de entorno y configuraciones locales ocultas
+.env
+
+# Archivos pesados del modelo de IA (GitHub no soporta >100MB)
+# Ignoramos la carpeta completa donde pusiste los binarios
+modelo_beto/
+*.bin
+*.safetensors
